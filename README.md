@@ -1,1 +1,1 @@
-# start_layout_gulp_template
+# dryft-knowledgehub

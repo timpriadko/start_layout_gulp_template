@@ -1,0 +1,65 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./helpers.scss";
+
+html{
+	height: 100%;
+}
+html, body{
+	margin: 0;
+}
+body{
+	position: relative;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+}
+*{
+	font-family: $base-font;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+button {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+// *************************** media
+@media screen and (max-width: 1440px) {
+    // end max-width: 1440px
+}
+
+@media screen and (max-width: 1024px) {
+
+    // end max-width: 1024px
+}
+
+// **************************** tablet
+@media screen and (min-width: 530px) and (max-width: 1023px) {
+
+
+    // end (min-width: 530px) and (max-width: 1023px)
+}
+
+// @import "pages/sampling-device.scss";
